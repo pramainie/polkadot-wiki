@@ -66,11 +66,15 @@ remember.
 ## Polkadot{.js} Browser Plugin
 
 The Polkadot{.js} plugin provides a reasonable balance of security and usability. It provides a
-separate local mechanism to generate your address and interact with Polkadot.
+separate local mechanism to generate your address and interact with Polkadot. Using the Polkadot-JS 
+user interface without the plugin is not recommended. It is the least secure
+way of generating an account. It should only be used if all of the other methods are not feasible in
+your situation.
 
 This method involves installing the Polkadot{.js} plugin and using it as a “virtual vault," separate
 from your browser, to store your private keys. It also allows signing of transactions and similar
 functionality.
+
 
 It is still running on the same computer you use to connected to the internet with and thus is less
 secure than using Parity Signer or other air-gapped approaches.
@@ -170,9 +174,6 @@ For detailed build and usage instructions of subkey, please see
 > Polkadot{.js} browser extension. Learn more about account backup and restoration
 > [here](learn-account-restore).
 
-Using the Polkadot-JS user interface without the plugin is not recommended. It is the least secure
-way of generating an account. It should only be used if all of the other methods are not feasible in
-your situation.
 
 ### Go to Polkadot-JS Apps
 
